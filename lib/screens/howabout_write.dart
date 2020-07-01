@@ -26,6 +26,8 @@ class _HowAboutWriteState extends State<HowAboutWrite> {
     super.dispose();
   }
 
+  ScrollController controller = new ScrollController();//ScrollController instance add
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -82,6 +84,7 @@ class _HowAboutWriteState extends State<HowAboutWrite> {
               ),
               Expanded(
                 child: ListView.builder(
+                  controller: controller,// add controller
                   itemCount: items.length,
                   itemBuilder: (context, index) {
                     final item = items[index];
@@ -161,6 +164,7 @@ class _HowAboutWriteState extends State<HowAboutWrite> {
                           if (teController.text != "") {
                             items.add(teController.text);
                           }
+                          controller.jumpTo(controller.position.maxScrollExtent);// move to focus for last list
                         });
                         teController.clear();
                         print(items);

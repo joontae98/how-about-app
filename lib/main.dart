@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:how_about_app/screens/howabout_home.dart';
 import 'package:how_about_app/widgets/behavior.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
 
   @override
