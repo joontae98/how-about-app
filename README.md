@@ -1,6 +1,5 @@
 # how_about_app
-
-A new Flutter application.
+자주 결정하게 되는 요소들을 하나의 Category로 등록하고 필요한 상황마다 선택하여 하나의 결과를 얻게 되는 앱.
 
 ## Getting Started
 
