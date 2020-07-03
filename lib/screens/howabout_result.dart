@@ -12,7 +12,6 @@ class HowAboutResult extends StatefulWidget {
 }
 
 class _HowAboutResultState extends State<HowAboutResult> {
-
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -25,11 +24,7 @@ class _HowAboutResultState extends State<HowAboutResult> {
             },
             child: Scaffold(
               body: SafeArea(
-                child: Container(
-                  child: Center(
-                    child: Text(''),
-                  ),
-                ),
+                child: Container(),
               ),
             ),
           ),
@@ -49,12 +44,16 @@ class _HowAboutResultState extends State<HowAboutResult> {
               child: Center(
                 child: Text(
                   widget.catalog,
+                  textAlign: TextAlign.center, //text center align
                   style: TextStyle(
                       decoration: TextDecoration.none,
                       color: kTealColor,
                       fontSize: 60),
                 ),
               ),
+            ),
+            SizedBox(
+              height: 20,
             ),
             Container(
               child: Center(
