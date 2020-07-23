@@ -13,5 +13,10 @@
 * widgets
 * material
 * cupertino
+#### Package
+* sqflite
+* path_provider
+* dart_random_choice
+* page_transition
 ## Example
 <img src="https://user-images.githubusercontent.com/65265805/86523467-dcb6ba00-bea7-11ea-922a-7ee8bc62e6e3.gif" height = "400" width = "250">
