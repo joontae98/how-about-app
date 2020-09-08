@@ -1,8 +1,8 @@
 import 'package:dart_random_choice/dart_random_choice.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:how_about_app/model/db.dart';
-import 'package:how_about_app/model/model.dart';
+import 'package:how_about_app/models/db.dart';
+import 'package:how_about_app/models/model.dart';
 import 'package:how_about_app/widgets/scaleroute.dart';
 import '../constants.dart';
 import 'howabout_option.dart';
