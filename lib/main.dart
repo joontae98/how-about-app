@@ -1,8 +1,14 @@
+import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 import 'package:how_about_app/screens/howabout_home.dart';
+import 'package:how_about_app/services/admob_service.dart';
 import 'package:how_about_app/widgets/behavior.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  FirebaseAdMob.instance.initialize(appId: AdMobService().getAdMobAppId());
+  runApp(MyApp());
+}
 class MyApp extends StatelessWidget {
 
   @override
