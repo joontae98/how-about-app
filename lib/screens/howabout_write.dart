@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:how_about_app/model/db.dart';
-import 'package:how_about_app/model/model.dart';
+import 'package:how_about_app/models/db.dart';
+import 'package:how_about_app/models/model.dart';
 import '../constants.dart';
 
 class HowAboutWrite extends StatefulWidget {
